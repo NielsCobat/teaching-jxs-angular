@@ -1,0 +1,18 @@
+<div>
+	<p>
+		Pokemon ID : 
+		<input [(ngModel)]="id" />
+	</p>
+	<p>
+		Pokemon list :
+		<select>
+			<option *ngFor="let pok of pokemons">
+				{{pok.name}}
+			</option>
+		</select>
+	</p>
+	<p>
+		Inserted ID :
+		<input value="{{id}}" readonly />
+	</p>
+</div>
