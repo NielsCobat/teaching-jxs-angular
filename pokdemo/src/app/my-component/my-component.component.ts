@@ -9,6 +9,9 @@ import { Pokemon } from '../pokemon';
 })
 export class MyComponentComponent {
   id: string = '';
+  
+  selectedPokemon: string = "";
+  
   pokemons: Pokemon[] = [
       {
         id: "1",
